@@ -1,0 +1,57 @@
+input{
+	outline: none;
+	border:none;
+}
+.login-box {
+    width: 480px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 50px auto;
+}
+
+.login-box .login-div {
+	width: 330px;
+	margin: auto;
+	height: 40px;
+	line-height: 40px;
+	border:1px solid #ccc;
+	border-radius: 4px;
+	margin-top:10px;
+}
+
+.login-box .login-div label {
+    width: 116px;
+    text-align: right;
+    display: inline-block;
+}
+
+.login-box .login-div input {
+	width: 204px;
+	height: 26px;
+	line-height: 26px;
+	text-indent: 10px;
+}
+.btn-box{
+	margin-top: 20px;
+}
+.btn{
+    cursor: pointer;
+    background: none;
+    border: none;
+    display: block;
+    width: 330px;
+    height: 40px;
+    line-height: 40px;
+    text-decoration: none;
+    text-align: center;
+    border: 1px solid #f5810c;
+    border-radius: 4px;
+    color: #f5810c;
+    font-size: 24px;
+}
+.btn:hover{
+	background-color: #f5810c;
+	color: #fff;
+}
